@@ -1,0 +1,23 @@
+Svakom igracu i djeliocu podijeliti po dvije pocetne karte
+
+Za svakog igraca
+      Dok igrac zahtjeva novu kartu i igrac nije tropa
+           Podijeliti igracu novu kartu
+
+Ako vise nema igraca u igri
+      Prikazati karte djelioca
+
+U suprotnom
+      Dok djelilac mora da uzme novu kartu i nije tropa
+          Podijeliti djeliocu novu kartu
+      Ako je djelioc tropa
+          Za svakog igraca koji je i dalje u igri
+              Igrac pobjedjuje
+      U suprotnom
+          Za svakog igraca koji je i dalje u igri
+              Ako je ukupan zbir karata igraca veci od djeliocevog zbira
+                   Igrac pobjedjuje
+              U suprotnom, ako je igracev zbir manji od djeliocevog zbira
+                    Igrac gubi
+              U suprotnom
+                    Rezultat je nerijesen za igraca
